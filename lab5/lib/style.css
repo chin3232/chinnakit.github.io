@@ -1,0 +1,40 @@
+body{
+  margin: 0 auto;
+}
+.statistics,
+.prime {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.group-1 h2 ,
+.group-2 h2 {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.group-1 ul,
+.group-2 ol {
+  padding-left: 20px; 
+  margin-top: 5px;
+}
+
+.group-1 li,
+.group-2 li {
+  font-size: 16px;
+}
+
+
+@media (max-width: 767px) {
+  .statistics,
+  .prime {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .group-1 h2 ,
+  .group-2 h2 {
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+}
